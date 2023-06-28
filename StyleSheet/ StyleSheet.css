@@ -243,7 +243,7 @@ transition: 0.15s;
     padding-top: 0.2%;
     padding-bottom: 0.2%;
     text-decoration: none;
-    opacity: 90%;
+    opacity: 96%;
     top: 0.5%;
     
     
@@ -301,13 +301,14 @@ transition: 0.15s;
     height: 300px;
     border: 1px solid #f87000;
     color: rgb(6, 6, 6);
-    background-color: rgba(255, 255, 255, 50%);
+    background-color: rgba(255, 255, 255, 70%);
     font-family: 'Poppins', sans-serif;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: top;
     border-radius: 3%;
+   
 }
 
 #info_2square{
