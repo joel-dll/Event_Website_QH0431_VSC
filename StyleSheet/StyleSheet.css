@@ -381,5 +381,24 @@ strong{
     padding: 0.5%;
     line-height: 180%;
   
+}
+.map{
+ 
+    display: block;
+    margin-left:24%;
    
+    width: 48%;
+    position: absolute;
+    margin-top: 3%;
+   
+}
+.title_areas{
+    color: rgb(228, 119, 68);
+    font-family: 'Tourney', cursive;
+    font-size: 37px;
+    position: absolute;
+    top:80%;
+    right: 42%;
+    margin: 0;
+    left: 46%;
 }
