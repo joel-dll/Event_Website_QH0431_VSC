@@ -347,6 +347,7 @@ strong{
     font-size: 50px;
     right: 0%;
     position: absolute;
+    flex-direction: column;
 }
 .bandslist{
  
