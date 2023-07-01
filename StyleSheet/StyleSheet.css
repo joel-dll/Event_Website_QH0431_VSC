@@ -305,7 +305,8 @@ transition: 0.15s;
     display: flex;
     justify-content: center;
     align-items: top;
-    padding: 0.5%;
+    padding: 1%;
+    line-height: 150%;
   
    
 }
