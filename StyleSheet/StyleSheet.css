@@ -1,5 +1,7 @@
 
-.bg {
+.bg{
+   
+    
    
     background-position:unset;
     background-repeat: no-repeat;
@@ -12,7 +14,7 @@
     position: fixed;
     top: 0;
     left: 0;
-  }
+}
 .background-music{
     width: 200px;
     height: 27px;
