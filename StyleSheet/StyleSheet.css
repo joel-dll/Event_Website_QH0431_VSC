@@ -390,7 +390,7 @@ strong{
     width: 48%;
     position: absolute;
     margin-top: 3%;
-   
+   filter: grayscale(70%);
 }
 .title_areas{
     color: rgb(228, 119, 68);
