@@ -412,9 +412,9 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     resize: vertical;
     font-family: 'Poppins', sans-serif;
-  }
+}
   
-  input[type=submit] {
+input[type=submit] {
     background-color: #eeaa51;
     color: white;
     padding: 12px 20px;
@@ -423,14 +423,14 @@ input[type=text], select, textarea {
     cursor: pointer;
     width: 60%;
     font-family: 'Poppins', sans-serif;
-  }
+}
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #c04f1e;
     
-  }
+}
   
-  .container {
+.container {
     
     border-radius: 5px;
     background-color: #ffffff;
@@ -439,4 +439,4 @@ input[type=text], select, textarea {
     font-family: 'Poppins', sans-serif;
     margin-top: 11%;
     
-  }
+}
