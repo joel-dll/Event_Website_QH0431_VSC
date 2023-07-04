@@ -56,7 +56,7 @@ transition: 0.15s;
     color: rgb(228, 119, 68);
     font-family: 'Tourney', cursive;
     font-size: 35px;
-    margin-left: 500px;
+    margin-left: 450px;
     margin-top: 170px;
 }
 .text_cult{
@@ -221,10 +221,11 @@ transition: 0.15s;
 .Copyright{
     color: rgb(255, 255, 255);
     text-align: right;
-    margin-top: 49%;
-    margin-left: 0%;
-    margin-bottom: 0;
-    position:fixed;
+    top: 95%;
+    left:2%;
+    
+ 
+    position:absolute;
     font-size: 13px;
     font-family: 'Poppins', sans-serif;
     
@@ -396,9 +397,9 @@ strong{
     font-size: 37px;
     position: absolute;
     top:80%;
-    right: 42%;
+    right: 41%;
     margin: 0;
-    left: 46%;
+    left: 45.5%;
 }
 input[type=text], select, textarea {
     width: 100%;
@@ -472,5 +473,47 @@ input[type=submit]:hover {
     
    
 }
+
+.instagram_icon{
+    color:white;
+    position: absolute;
+    top:92%;
+    right:3%;
+    width: 1.6%;
+    fill:white;
+    cursor: pointer;
+}
+.instagram_icon:hover{
+    width: 2%;
+    fill:#ec9147;
+}
+.facebook_icon{
+    color:white;
+    position: absolute;
+    top:92%;
+    right:6%;
+    width: 1.6%;
+    fill:white;
+    cursor: pointer;
+}
+
+.facebook_icon:hover{
+    width: 2%;
+    fill:#ec9147;
+}
+.twitter_icon{
+    color:white;
+    position: absolute;
+    top:92%;
+    right:9%;
+    width: 1.6%;
+    fill:white;
+    cursor: pointer;
+}
+.twitter_icon:hover{
+    width: 2%;
+    fill:#ec9147;
+}
+
 
 
