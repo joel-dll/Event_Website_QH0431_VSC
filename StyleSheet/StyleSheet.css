@@ -1,5 +1,16 @@
 
 
+#back_img{
+    background-image: url(pictures/image1_title.jpg);
+    background-position:unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+ 
+   
+}
+
 .background-music{
     width: 200px;
     height: 27px;
