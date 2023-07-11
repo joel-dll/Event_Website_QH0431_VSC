@@ -17,13 +17,29 @@
     <title>Peckham Beats Festival | Official Webesite </title>
 
     <link href="StyleSheet/StyleSheet.css" rel="StyleSheet">
-
+    <script type = "module" src = "Scripts/age_check.js"></script>
+    
 </head>
 
   
 <body id="back_img" style="background-image: url('pictures/image1_title.jpg')"> 
 
+    <button id="openModal"><span class="attend_policy">Attending policy</span> Verify your Age</button>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Age Verification</h2>
+        <p>Please enter your date of birth:</p>
+        <input type="date" id="dob">
+        <button id="submit">Submit</button>
+      </div>
+    </div>
+  
+    <script src="Scripts/age_check.js"></script>
+
 <audio class="background-music" src="music/rock_intro.mp3" controls = "controls" >Your browser does not support the audio element.</audio>
+
 
 <p  class="ticket">| Tickets on sale from 16 of MAY on <a href="https://www.ticketline.co.uk" target="_blank" class="linktickets">Ticketline.co.uk</a></p>
 
