@@ -440,14 +440,15 @@ input[type=submit]:hover {
     
 }
   
-.container {
+#all_form {
     
-    border-radius: 5px;
+    border-radius: 4px;
     background-color: #ffffff;
     padding: 20px;
     width: 32%;
     font-family: 'Poppins', sans-serif;
-    margin-top: 11%;
+   
+    margin-top: 0%;
     
 }
 .fqa_title{
@@ -543,7 +544,7 @@ input[type=submit]:hover {
 }
 #openModal:hover{
     color: #fa8c64;
-    width: 250px;
+    width: 300px;
     
 }
 .modal {
@@ -589,3 +590,21 @@ input[type=submit]:hover {
     font-weight: bold;
 
   }
+  #mark_opt{
+    font-size: 10px;
+ 
+   
+    
+
+  }
+#email_address{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #932525;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+}

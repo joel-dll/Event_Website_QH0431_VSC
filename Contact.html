@@ -18,25 +18,55 @@
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@300&family=Tourney:wght@200&display=swap" rel="stylesheet">
     <!-- Fonts Links --> 
     
+     <script type = "module" src = "Scripts/form_validation.js"></script>
+
 </head>
 
 <body style="background-image: url('pictures/image11.jpg'); background-position: unset; background-repeat: no-repeat; 
 background-size: cover;">
 
-  <div class="container">
-    <form action="Contact.html">
-      <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+    <form id="all_form">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname"  placeholder="Your name...">
 
-      <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-      <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-      <input type="submit" value="Submit">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" placeholder="Your last name...">
+          
+          <label for="email_address">Email address</label><br>
+          <input id="email_address" type="email"  placeholder="example@abc.com" required><br>
+          
+          
+          <label for="cbxtype">Gender</label>
+          <select id="cbxtype" type="text">
+          
+            <option value="p_n_t_say">I prefer not to say</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            
+        
+          </select>
+          
+          <label for="subject">Subject</label>
+          <textarea id="subject" type="text" placeholder="Write something..." style="height:120px"></textarea>
+          
+        
+          
+          
+          <input type="radio" name="marketingPreference" value="yes" id="yesOption">
+          <label for="yesOption">Yes, I want to receive marketing emails.</label>
+          <br>
+          <input type="radio" name="marketingPreference" value="no" id="noOption">
+          <label for="noOption">No, I do not want to receive marketing emails.</label>
+          <br>
+          <input type="submit" value="submit">
+    
     </form>
-  </div>
+    
+
+      
+      
+ 
 
   <p class="title_info">Contact form</p>
         
@@ -44,4 +74,5 @@ background-size: cover;">
 
 
 </body>
+
 </html>
